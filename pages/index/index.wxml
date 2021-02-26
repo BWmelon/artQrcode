@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap="render1">生成模板一</button>
+  <button bindtap="render2">生成模板二</button>
+  <button bindtap="handleSave">保存</button>
+
+  <image src="{{url}}" class="image" mode="widthFix" bindtap="handlePreview"></image>
+  <canvas style="width: 900px; height: 1200px;position: absolute;left: -99999rpx;" canvas-id="myQrcodeOne"></canvas>
+  <canvas style="width: 1000px; height: 1000px;position: absolute;left: -99999rpx;" canvas-id="myQrcodeTwo"></canvas>
+</view>
