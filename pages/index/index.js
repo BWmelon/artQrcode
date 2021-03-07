@@ -64,13 +64,12 @@ Page({
                 dHeight: 1000
             },
             materials: {
-                row4: ["../../images/materials/electron/row4.png"],
                 eye: ["../../images/materials/electron/eye.png"],
+                row4: ["../../images/materials/electron/row4.png"],
                 col3: ["../../images/materials/electron/col3.png", "../../images/materials/electron/col3_2.png"],
                 row3: ["../../images/materials/electron/row3.png"],
                 row2col3: ["../../images/materials/electron/row2col3.png"],
                 row3col2: ["../../images/materials/electron/row3col2.png"],
-                row2col2: ["../../images/materials/electron/row2col2.png"],
                 col2: ["../../images/materials/electron/col2.png"],
                 row2: ["../../images/materials/electron/row2.png", "../../images/materials/electron/row2_2.png"],
                 single: ["../../images/materials/electron/single.png", "../../images/materials/electron/single_2.png"],
